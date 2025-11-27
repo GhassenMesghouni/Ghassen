@@ -16,3 +16,8 @@
 > **Outcome:** Unified visibility of opportunity pipeline and probabilistic prioritization for sales.
 
 [📄 Report (PDF)](#) · [📊 Power BI screenshots](#) · [🧠 ML notebook](#)
+## How to Reproduce (Quickstart)
+1. **SQL Server**: run `/sql/ddl_dwh.sql` to create the star schema; run `/sql/sp_load_dwh.sql`.
+2. **SSIS**: open `/ssis/ETL_DWH.dtsx` (screens & control flow), source = CSV `opportunites.csv` → `stg` → `dwh`.
+3. **Power BI**: open `/powerbi/report.pbix` (or see screenshots in `/assets/powerbi_*`).
+4. **ML**: open `/ml/notebook.ipynb` (Logistic Regression, ROC/AUC, confusion matrix). Predictions loaded into `ml.predictions` and exposed via `ml.vw_last_predictions`.
