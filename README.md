@@ -1,6 +1,6 @@
 ## 📌 Huawei – End-of-Study Project (Data & Business Analytics)
 **Role:** Data & Business Analyst (Intern)  
-**Period:** Jun 2025 – Nov 2025 · Tunis
+**Period:** Apr 2025 – Oct 2025 · Tunis
 
 **Project:** Sales performance analytics pipeline — **Data → DWH → ETL → BI → ML**  
 - Built a **star-schema DWH** on SQL Server (fact opportunité + dims client/produit/secteur/région/statut/temps).
