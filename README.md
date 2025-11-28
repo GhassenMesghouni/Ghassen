@@ -31,16 +31,15 @@
    Open `/ml/ml_notebook.ipynb` (Logistic Regression, ROC/AUC, confusion matrix).  
    Predictions loaded into `ml.predictions` and exposed via `ml.vw_last_predictions`.
 
-## Deliverables
+### Deliverables
+- **Report (PDF):** [/assets/Rapport_PFE.pdf.pdf](./assets/Rapport_PFE.pdf.pdf)
+- **Power BI screenshots:** [/assets](./assets)
+- **ML notebook:** (to be added) – placeholder: [/ml](./ml)
 
-- **Report (PDF):** [`/assets/Rapport_PFE.pdf`](assets/Rapport_PFE.pdf)  
-- **Power BI screenshots:** [`/assets`](assets)  
-- **ML notebook:** [`/ml/ml_notebook.ipynb`](ml/ml_notebook.ipynb)
+### Screenshots
+![Power BI model](./assets/pbi_model.png)
+*Power BI data model.*
 
-## Screenshots
-
-<p align="center">
-  <img src="assets/pbi_overview.png" alt="Power BI overview" width="800"><br>
-  <em>Power BI overview page (KPI & trends).</em>
-</p>
+![Power BI KPI page](./assets/pbi_page_kpi.png)
+*Power BI KPI page.*
 
